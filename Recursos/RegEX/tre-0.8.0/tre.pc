@@ -1,0 +1,10 @@
+prefix=/home/juanma/Trabajo/W-C/vos/tre-0.8.0/DIST/
+exec_prefix=/home/juanma/Trabajo/W-C/vos/tre-0.8.0/DIST/
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: TRE
+Description: TRE regexp matching library
+Version: 0.8.0
+Libs: -L${libdir} -ltre   
+Cflags: -I${includedir} 
