@@ -13,11 +13,6 @@ vos is the best option to cover this scene.
 
 *** IT IS VERY IMPORTANT *** that you know that CTRL+S/CTRL+Q are special combinations for your serial terminal handler. These combined keys are software flow control signals same as XOFF/XON hardware control. If you press CTRL+S (XOFF=scroll-lock) your terminal does not refresh. Then, you must press CTRL+Q (XON=scroll-lock off) to restart the refresh of your terminal. If you want to inhibit these combined keys you must reconfigure your terminal (see man stty).
 
-*** IF YOU FIND ANY BUG *** and you are using vos in Caja Espana - Caja Duero
-environment  you must report it to Juan Manuel Alonso Robles - Arquitectura
-department. jalonsor@cajaespana.es.
-
-
 .br
 COMMAND LINE
 EXAMPLEMARK
@@ -27,7 +22,7 @@ vos [-l RecordLength] /SomePath/FILE
 
 EXAMPLE
 EXAMPLEMARK
-vos -l 219 /Ficheros/VAEX.FPEPROEN.PROEN.S40308SD
+vos -l 219 /Files/FILE.XXXXXX
 
 RUNNING vos
 EXAMPLEMARK
@@ -111,4 +106,4 @@ EXAMPLEMARK
 As vos editor is an early software, there are operations not yet implemented and can contain bugs not yet reported. So, use it carefully and report any bug you encounter to the author. Reporting bugs in time will do vos better for you and your needs. Thank you very much.
 
 AUTHOR
-Juan Manuel Alonso Robles. jalonsor@gmail.com.
+Juan Manuel Alonso Robles. (jalonsor).
